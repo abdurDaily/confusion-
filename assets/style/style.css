@@ -1,0 +1,49 @@
+/* COMMOON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* COMMOON CSS END */
+
+
+#syncing {
+    height: 100vh;
+    background-color: #00000047;
+}
+
+
+#syncing .slider-for .cild-for{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+#syncing .slider-nav span:first-child{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    background: rgb(255, 242, 0);
+    display: block;
+    border: 1px solid red;
+    border-radius: 50%;
+}
